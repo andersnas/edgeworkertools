@@ -14,3 +14,5 @@ Pre requisites:
 3. You need a sub directory called builds where all builds will be stored
 
 This is only tested with a valid accountkey on OSX.
+
+![alt text](https://github.com/andersnas/edgeworkertools/blob/main/screenshot.jpg?raw=true)
