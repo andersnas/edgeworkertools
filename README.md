@@ -17,3 +17,5 @@ Pre requisites:
 This is only tested with a valid accountkey on OSX.
 
 ![alt text](https://github.com/andersnas/edgeworkertools/blob/main/screenshot.jpg?raw=true)
+
+Please also check out https://github.com/akamai/edgeworkers-vscode for a GUI approach
