@@ -11,7 +11,8 @@ buildew.sh
 Pre requisites:
 1. You need a path for a valid edgerc file
 2. You need to put the shellscript in the same directory as your code (where the bundle.json and main.js files are)
-3. You need a sub directory called builds where all builds will be stored
+3. You need to alter the parameters at the top of the script to fit your application and environemnt.
+4. You need a sub directory called builds where all builds will be stored
 
 This is only tested with a valid accountkey on OSX.
 
