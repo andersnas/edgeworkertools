@@ -5,7 +5,8 @@ edgerc=".edgerc" # Default path; adjust if necessary
 edgerc_section="default" # Default section; adjust if necessary
 accountkey="" # If you use account-switching, provide the key here
 network="STAGING" # STAGING or PRODUCTION
-package="main.js bundle.json" # Add files as needed
+package="main.js bundle.json blocklist.json" # Your files to be included
+edgeworker_id="" # Replace with your EdgeWorker ID
 
 
 # If no argument is provided, exit
@@ -36,7 +37,6 @@ jq --arg new_version "$new_version" --arg description "$description" \
 tar czvf "builds/edgeworker-$new_version.tgz" $package
 
 # Deploy to Akamai's staging using specified edgerc and account switch key
-edgeworker_id="81068" # Replace with your EdgeWorker ID
 export AKAMAI_EDGERC=$edgerc_path
 export AKAMAI_EDGERC_CONFIG=$edgerc_section
 
